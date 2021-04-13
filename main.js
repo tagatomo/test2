@@ -33,6 +33,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     //else {
       //output.innerHTML = "犬"}
     
-    output.innerHTML = prediction
+    output.innerHTML = "dog"
   })
 })
