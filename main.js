@@ -28,10 +28,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       return model.predict(input).dataSync()[0]
     })
 
-    if (prediction < 0.5) {
-      output.innerHTML = "猫"
-    } else {
-      output.innerHTML = "犬"
-    }
+    //if (prediction < 0.5) {
+      //output.innerHTML = "猫"} 
+    //else {
+      //output.innerHTML = "犬"}
+    
+    output.innerHTML = prediction[0][0]
   })
 })
